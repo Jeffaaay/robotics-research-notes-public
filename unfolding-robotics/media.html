@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Unfolding Robotics · 实机视频</title>
+<style>
+body{margin:0;background:#f4f2ed;color:#242b2c;font:17px/1.7 system-ui,sans-serif}
+main{max-width:1050px;margin:auto;padding:32px 24px 64px}a{color:#11695e}
+h1{font-size:32px;line-height:1.25}h2{font-size:23px}section{background:white;padding:24px;margin:24px 0;border-radius:12px}
+img,video{display:block;width:100%;height:auto;border-radius:8px;background:#181b1b}p{max-width:850px}.note{color:#586163;font-size:15px}
+</style>
+<main>
+<p><a href="README.md">阅读笔记</a> · <a href="https://lerobot-robot-folding.hf.space/">作者完整报告</a></p>
+<h1>双臂 OpenArm 自主叠衣</h1>
+<p>以下是 Hugging Face / LeRobot 的原站素材。视频按原文件默认速度播放，可使用浏览器控制条。它们展示作者的系统，Cadenza 尚未完成实机复现。</p>
+<section><h2>先看工作台</h2>
+<img src="https://lerobot-robot-folding.hf.space/_astro/ogp.k831iTAS.webp" alt="作者的双臂 OpenArm 工作台" loading="lazy">
+<p>先辨认执行臂、夹爪和操作范围。我们的原装结构布局仍需核对，不能把这张图当成自己的装配完成图。</p></section>
+<section><h2>1 · 从铺平衣服开始</h2>
+<video controls playsinline preload="none" src="https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/lerobot/level1.mp4"></video>
+<p>观察衣服初态、每次抓取位置、两只手的分工和最终释放。先完成这一类任务，再增加整理揉乱衣物的难度。</p>
+<p class="note"><a href="https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/lerobot/level1.mp4">原视频链接</a>。无法播放时可转到作者报告。视频文件不会下载进研究仓库。</p></section>
+<section><h2>2 · 从揉乱衣服开始</h2>
+<video controls playsinline preload="none" src="https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/lerobot/level2.mp4"></video>
+<p>把“展开”与“折叠”分开看，记下重抓、滑落或等待。判断失败发生在哪一步，比只看最后折好没有更有用。</p>
+<p class="note"><a href="https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/lerobot/level2.mp4">原视频链接</a>。完整测试条件与分母见阅读笔记及作者报告。</p></section>
+<p class="note">来源核查：2026-10-22。已检查链接响应；本轮未验证各浏览器完整播放，也未逐帧评分。图片、视频版权归原作者。</p>
+</main>
+</html>
